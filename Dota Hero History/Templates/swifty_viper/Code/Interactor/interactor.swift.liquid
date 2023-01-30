@@ -1,0 +1,20 @@
+//
+//  {{ prefix }}{{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+
+final class {{ module_info.name }}Interactor {
+    private weak var output: {{ module_info.name }}InteractorOutput?
+
+}
+
+extension {{ module_info.name }}Interactor: {{ module_info.name }}InteractorInput {
+    func attach(_ output: {{ module_info.name }}InteractorOutput) {
+        self.output = output
+    }
+}

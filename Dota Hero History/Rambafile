@@ -1,0 +1,21 @@
+### Headers settings
+company: AndreyTeam
+
+### Xcode project settings
+project_name: Dota Hero History
+xcodeproj_path: /Users/marinashevchuk/Desktop/untitled folder/Dota Hero History/Dota Hero History/Dota Hero History.xcodeproj
+project_file_path: /Dota Hero History
+project_group_path: /Dota Hero History
+
+### Code generation settings section
+# The main project target name
+project_target: Dota Hero History
+
+### Dependencies settings section
+podfile_path: /Users/marinashevchuk/Desktop/untitled folder/Dota Hero History/Dota Hero History/Podfile
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
